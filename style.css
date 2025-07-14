@@ -1,0 +1,81 @@
+body {
+    font-family: sans-serif;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ol > li::marker {
+    font-weight: bold;
+}
+
+nav ul {
+    background-color: black;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+
+nav ul li {
+    float: left;
+    font-size: large;
+}
+
+nav ul li a {
+    color: white;
+    display: block;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: lightgray;
+}
+
+#nav-center {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#nav-center li a {
+    font-size: x-large;
+    font-style: italic;
+}
+
+#nav-right {
+    float: right;
+}
+
+#nav-active, nav ul li a:hover {
+    background-image: url("media/fire.gif");
+    background-size: 100px;
+}
+
+#content {
+    font-size: large;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#content h1 {
+    text-align: center;
+}
