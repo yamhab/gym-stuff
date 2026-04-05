@@ -2,36 +2,8 @@ body {
     font-family: sans-serif;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 ol > li::marker {
     font-weight: bold;
-}
-
-nav ul {
-    background-color: black;
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-    padding: 0;
-    position: relative;
-}
-
-nav ul li {
-    float: left;
-    font-size: large;
-}
-
-nav ul li a {
-    color: white;
-    display: block;
-    font-weight: bold;
-    padding: 14px 16px;
-    text-decoration: none;
 }
 
 table {
@@ -50,19 +22,50 @@ th {
     background-color: lightgray;
 }
 
-#nav-center {
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    background-color: black;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+
+nav ul li {
+    font-size: large;
+}
+
+nav ul li a {
+    color: white;
+    display: block;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-center {
     left: 50%;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
 }
 
-#nav-center li a {
+.nav-center a {
     font-size: x-large;
     font-style: italic;
 }
 
-#nav-right {
+.nav-right {
     float: right;
 }
 
@@ -72,12 +75,15 @@ nav ul li a:hover {
     background-size: 100px;
 }
 
-#content {
-    font-size: large;
+main {
     padding-left: 5%;
     padding-right: 5%;
 }
 
-#content h1 {
+article {
+    font-size: large;
+}
+
+article h1 {
     text-align: center;
 }
